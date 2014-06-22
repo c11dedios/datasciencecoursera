@@ -5,7 +5,6 @@
 1. README.md 
 2. CodeBook.md 
 3. run_analysis.R 
-4. run_analysis.R Objectives
 
 ###You should create one R script called run_analysis.R that does the following. 
 1. Merges the training and the test sets to create one data set.

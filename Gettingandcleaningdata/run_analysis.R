@@ -25,13 +25,13 @@ subjectTrain = read.table('./train/subject_train.txt',header=FALSE); #imports th
 xTrain       = read.table('./train/x_train.txt',header=FALSE); #imports the file 'x_train.txt' from the 'train folder'
 yTrain       = read.table('./train/y_train.txt',header=FALSE); #imports the file 'y_train.txt' from the 'train folder'
 
-# Assigin column names to the data imported above
+# Assign column names to the data imported above
 colnames(activityType)  = c('activityId','activityType');
 colnames(subjectTrain)  = "subjectId";
 colnames(xTrain)        = features[,2]; 
 colnames(yTrain)        = "activityId";
 
-# cCreate the final training data set: Merge the yTrain, subjectTrain, and xTrain
+# Create the final training data set: Merge the yTrain, subjectTrain, and xTrain
 trainData = cbind(yTrain,subjectTrain,xTrain);
 
 # Read in the test data

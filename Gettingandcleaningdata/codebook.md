@@ -15,7 +15,9 @@ subject
 
     subjectID              Unique identifier assigned to each subject
 
-label                      activityType
+label                      
+
+    activityType
 
 1. "WALKING
 2. "WALKING_UPSTAIRS"
